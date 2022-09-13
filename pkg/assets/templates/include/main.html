@@ -1,0 +1,21 @@
+{{define "main"}}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="/static/img/logo.png" type="image/x-icon" />
+        <title>{{ .title }}</title>
+
+        <!--Подключенные ссылки на CSS/JS -->
+        {{ template "links" . }}
+    </head>
+    <body>
+        {{ template "header" . }}
+
+        <!--Основной блок -->
+        {{ template "block" .}}
+
+        {{ template "footer" . }}
+    </body>
+</html>
+{{ end}}

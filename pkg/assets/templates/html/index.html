@@ -1,0 +1,83 @@
+{{ template "main" .}}
+{{ define "block"}}
+    <div class="main  d-flex">
+        <img class="w-50 p-5" src="https://sun9-80.userapi.com/impg/qpjOd27t5QDp2czc0w7UTFtoSG4kTdPHi_-gJw/xNZtj4P-G9U.jpg?size=800x600&quality=95&sign=794a4485bd7ef58552fb1f285e41e062&type=album" alt="">
+        <div class="w-50">
+            <div class="d-flex">
+                <div data-icon="ei-play" data-size="l"></div>
+                <p class="display-1 fw-bold text-white">    Read for me</p>
+            </div>
+
+            <p class="text-left text-white p-2 pe-5">   Read for me - это сервис, который поможет вам прочитать любой текст, который вы захотите. Просто вставьте текст в поле ввода и нажмите кнопку "Прочитать".
+            Так же вы можете скачать текст в формате .mp3. Для этого просто нажмите кнопку "Скачать". Но помните, что сервис работает только с английским языком.
+            И еще один момент, если вы хотите скачать текст, то вам нужно будет зарегистрироваться. Но это не обязательно. Вы можете просто прочитать текст, не регистрируясь.
+            Правда в этом случае вы не сможете скачать текст. Но вы можете скачать текст, если зарегистрируетесь. Так что не стесняйтесь и зарегистрируйтесь.
+            А если вы не хотите регистрироваться, то просто прочитайте текст. Но если вы хотите скачать текст, то зарегистрируйтесь. И еще один момент, если вы хотите скачать текст, то вам нужно будет зарегистрироваться. Но это не обязательно. Вы можете просто прочитать текст, не регистрируясь.
+            Но так же, вы можете посмотреть цены на наши услуги. Для этого просто нажмите на кнопку "Цены". И вы увидите цены на наши услуги. Но помните, что цены на наши услуги могут меняться.
+                Так же, наши контакты вы можете посмотреть, нажав на кнопку "Контакты". И вы увидите наши контакты. Но помните, что наши контакты могут меняться. </p>
+
+
+        </div>
+    </div>
+    <div>
+        <nav>
+            <ul class="nav .bg-warning.bg-gradient nav-fill">
+                <li class="nav-item ">
+                    <a class="nav-link text-white" aria-current="page" href="/">Главная</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="/prices">Цены</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/contacts">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="">
+        <div class="container pt-4">
+            <div class="row">
+                <div class="col-12">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Введите текст" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Прочитать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Напиши список книг без input с красивым оформлением-->
+        <p class="ps-5 display-2 text-center">Популярные книги</p>
+        <hr style="height: 1px; margin-left: 12.5%" class="w-75"/>
+        <ul class="book-list mb-0 p-5">
+            <li class=" d-flex">
+                <img src="https://main-cdn.sbermegamarket.ru/big1/hlr-system/1751145813/100024717794b0.jpg" alt="Война и мир" height="250px" width="350px" class="img-fluid float-start  me-3">
+                <div>
+                    <p class="display-4">Война и мир <i class="text-secondary">©Лев Толстой</i></p>
+                    <hr class="main-hr"/>
+                    <p class="fs-5" style="height:10em;">Описание: <i> Главный герой романа — легендарный русский воин-герой, граф Иван Ильич Львович Чернявский, который во время войны с Турками в 1812 году воевал на русской стороне. Война и мир — это не только история войны, но и история любви, судьбы и смерти, история жизни и смерти человека. </i></p>
+                    <p><a href="https://www.litres.ru/lev-tolstoy/voyna-i-mir-v-4-h-tomah-23188614/" class="btn btn-primary w-25">Читать</a><a href="https://t.me/flibustafreebooksbot" class="btn btn-primary w-25 ms-2">Скачать</a></p>
+                    <ul class="fs-5">
+                        <li class="">Год: <i>1865</i></li>
+                        <li class="">Жанр: <i>Роман</i></li>
+                        <li class="">Страниц: <i>1225</i></li>
+                    </ul>
+                </div>
+            </li>
+            <li class=" d-flex mt-5 ">
+                <img src="https://cv6.litres.ru/pub/c/elektronnaya-kniga/cover_max1500/39507162--.jpg"  alt="451 градус по Фаренгейту"  height="250px" width="345px" class="img-fluid float-start me-3">
+                <div>
+                    <p class="display-4">451 градус по Фаренгейту <i class="text-secondary">©Рэй Бредбери</i></p>
+                    <hr class="main-hr"/>
+                    <p class="fs-5">Описание: <i> В 1999 году в США запрещают книги, в которых есть слово «книга». Все книги сгорают, а вместо них печатаются телевизионные передачи. В одном из городов, где запрещены книги, работает пожарный Джон Брейн. Он не любит свою работу, но любит жену Монтэг. Однажды он встречает Монтэга в книжном магазине, где она работает. Они начинают встречаться в тайне от жены. Однажды Джону приходит в голову идея сбежать с Монтэг. Они планируют уехать в Мексику, но Джону приходит в голову идея убить Монтэга. Он совершает преступление, но не может сдаться. Он начинает искать способ скрыться от правосудия. </i></p>
+                    <p><a href="https://www.litres.ru/rey-bredberi/451-gradus-po-farengeytu/" class="btn btn-primary w-25">Читать</a><a href="https://t.me/flibustafreebooksbot" class="btn btn-primary w-25 ms-2">Скачать</a></p>
+                    <ul class="fs-5">
+                        <li class="">Год: <i>1953</i></li>
+                        <li class="">Жанр: <i>Роман</i></li>
+                        <li class="">Страниц: <i>256</i></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+{{end}}

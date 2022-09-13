@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,400;0,700;1,100&display=swap');
+
+.icon {
+    fill: #F64C72;
+}
+*{
+    padding:0;
+    margin:0;
+}
+
+/* Block: Header */
+header {
+    height:100%;
+    background-color: #282ec2;
+}
+header ul {
+    margin-bottom: 0;
+    list-style: none;
+    color:white;
+    font-family: 'Kanit', sans-serif;
+
+}
+/* Block: Footer */
+footer {
+    background-color: #282ec2;
+    color:white;
+    height:7em;
+}
+footer ul {
+    margin-bottom: 0;
+    list-style: none;
+    color:white;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 5.2em;
+}
+
+.footer-hr {
+    width:50%;
+    height:4px;
+    margin:0;
+    color:black;
+    background-color: #282ec2;
+}
+
+/* Block: Main */
+.main {
+    height:100%;
+    background-color: #282ec2;
+}
+.main nav {
+    margin-bottom: 0;
+    list-style: none;
+    color:white;
+}
+.main nav a {
+    color:white;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.book-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 5em;
+}
+.main-hr{
+    height:2px;
+    width:100%;
+    color:white;
+}
+
+nav {
+    background-color: #282ec2;
+    color:white;
+    height:100%;
+}
+nav ul {
+    margin-bottom: 0;
+    list-style: none;
+    background-color: #F64C72;
+    color:white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5em;
+}
+nav ul li {
+    font-family: 'Kanit', sans-serif;
+    display: inline-block;
+    padding: 0 5.2em;
+}
